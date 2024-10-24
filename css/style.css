@@ -31,26 +31,25 @@ ul.navbar-nav li a:hover {
 .nav-logo:hover {
     color: #ff305b;
 }
+
+
 #home {
     background:  linear-gradient(rgba(0, 0, 0, 0.818) 0% 100%),url('../images/header\ bg.jpg');
     height: 100vh;
     background-position: center;
     background-size: cover;
     text-transform: capitalize;
+    display: flex;
     
 }
 .home-content {
     background-color: aquamarine;
     text-align: center;
-    vertical-align: middle;
-    position: relative;
+    width: 50%;
     font-size: 24px;
     font-weight: 600;
     line-height: 1.1;
     color: aliceblue;
-    /* align-self: center; */
-    align-items: center;
-    justify-content: center;
 }
 h1 {
     font-size: 77px;
